@@ -28,7 +28,7 @@ The dataset contains information on tracks from Spotify, including:
  - Platform-specific information like streams, official video, and most_played_on
 
 
--- create table
+--create table
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
