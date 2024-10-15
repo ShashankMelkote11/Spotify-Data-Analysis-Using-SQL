@@ -27,7 +27,7 @@ The dataset contains information on tracks from Spotify, including:
  - Popularity metrics (views, likes, comments)
  - Platform-specific information like streams, official video, and most_played_on
 
-
+'''
 --create table
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
@@ -56,7 +56,7 @@ CREATE TABLE spotify (
     energy_liveness FLOAT,
     most_played_on VARCHAR(50)
 );
-
+'''
 
 ## SQL Queries
 
